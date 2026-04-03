@@ -205,12 +205,12 @@ talnet 127.0.0.1 8080
 ```
 
 说明
-- MAX_TIMERS 最小堆支持的最大定时器数量
-- SERV_PORT 服务端监听端口号
-- MAX_EVENTS epoll和事件池容量
-- MAX_LEN 单词缓冲区的最大长度
-- MAX_FDS 用于heap_index的fd映射上限
-- TIME_MS 连接超时时间（毫秒）
+- *MAX_TIMERS* 最小堆支持的最大定时器数量
+- *SERV_PORT* 服务端监听端口号
+- *MAX_EVENTS* epoll和事件池容量
+- *MAX_LEN* 单词缓冲区的最大长度
+- *MAX_FDS* 用于heap_index的fd映射上限
+- *TIME_MS* 连接超时时间（毫秒）
 
 ## 当前已实现特点
 ### 已实现
