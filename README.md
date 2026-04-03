@@ -205,12 +205,12 @@ talnet 127.0.0.1 8080
 ```
 
 说明
-- *MAX_TIMERS* 最小堆支持的最大定时器数量
-- *SERV_PORT* 服务端监听端口号
-- *MAX_EVENTS* epoll和事件池容量
-- *MAX_LEN* 单词缓冲区的最大长度
-- *MAX_FDS* 用于heap_index的fd映射上限
-- *TIME_MS* 连接超时时间（毫秒）
+- MAX_TIMERS 最小堆支持的最大定时器数量
+- SERV_PORT 服务端监听端口号
+- MAX_EVENTS epoll和事件池容量
+- MAX_LEN 单词缓冲区的最大长度
+- MAX_FDS 用于heap_index的fd映射上限
+- TIME_MS 连接超时时间（毫秒）
 
 ## 当前已实现特点
 ### 已实现
@@ -228,7 +228,7 @@ talnet 127.0.0.1 8080
 - 增加日志级别与调试输出
 - 进一步封装成更标准的Reactor框架
 
-##学习路线建议
+## 学习路线建议
 如果你是按照网络编程路线推进， 这个项目可以作为下面这些内容的过渡板
 ```text
 socket 基础
